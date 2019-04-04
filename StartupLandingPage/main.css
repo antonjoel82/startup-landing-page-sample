@@ -22,8 +22,12 @@ span.flying-title {
 }
 
 span.flying-title:hover {
-    transform: translateY(20px);
+    /* transform: translateY(20px); */
     color: rgba(0, 255, 255, 1);
+    -webkit-animation: lightSpeedOut 1s;
+    animation: lightSpeedOut 1s;
+    -webkit-animation-delay: 400ms;
+    animation-delay: 400ms;
 }
 
 body {
